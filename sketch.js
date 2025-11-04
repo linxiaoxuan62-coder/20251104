@@ -187,6 +187,8 @@ function createMenu() {
       li.mousePressed(() => {
         if (t === '第一單元作品') {
           window.open('https://linxiaoxuan62-coder.github.io/20251014/', '_blank');
+        } else if (t === '測驗系統') {
+          window.open('https://linxiaoxuan62-coder.github.io/20251028/', '_blank');
         } else {
           console.log('選單項目點擊：', t);
         }
